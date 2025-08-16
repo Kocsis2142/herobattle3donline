@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8601728633688722478}
   - component: {fileID: 6415974979469228149}
   - component: {fileID: 3389448004065781555}
-  - component: {fileID: 7171565913762513958}
+  - component: {fileID: 6827966131694867405}
   m_Layer: 5
   m_Name: UnitCardPrefab
   m_TagString: Untagged
@@ -33,10 +33,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 160}
+  m_SizeDelta: {x: 100, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6415974979469228149
 CanvasRenderer:
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7171565913762513958
+--- !u!114 &6827966131694867405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,9 +85,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5321039302097695318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f53a4c65f10aec84098ea6399fb24143, type: 3}
+  m_Script: {fileID: 11500000, guid: c2e50daa2f8e2ee4793e074b02576f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Soldier
-  team: 0
-  soldierPrefab: {fileID: 5621977868205618774, guid: 2f8e7cae87c5b4649923a03c75c93c62, type: 3}
+  manager: {fileID: 0}
+  card: {fileID: 0}

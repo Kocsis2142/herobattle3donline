@@ -1,45 +1,22 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class UnitCard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public enum CardRole { Defender, Attacker }
+
+[CreateAssetMenu(menuName = "Cards/Unit Card")]
+public class UnitCard : ScriptableObject
 {
-    public string unitName;    // Az egysÈg prefab neve
-    public int team;           // Csapat
+    [Header("Alap adatok")]
+    public string unitName;           // ezzel hivatkozunk a szerveren
+    public Sprite icon;
 
-    private Vector3 startPos;
-    private Canvas canvas;
-    private RectTransform rectTransform;
+    [Header("J√°t√©kmenet")]
+    public CardRole role = CardRole.Defender; // ‚¨ÖÔ∏è EZ D√ñNT AZ ATTACKER/DEFENDER K√ñZ√ñTT
+    public int maxHP = 10;
+    public int damage = 1;
+    public float attackRate = 1f;
+    public float attackRange = 1.5f;
+    public float moveSpeed = 2f;
 
-    private void Awake()
-    {
-        rectTransform = GetComponent<RectTransform>();
-        canvas = GetComponentInParent<Canvas>();
-    }
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        startPos = rectTransform.position;
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        rectTransform.position += (Vector3)eventData.delta / canvas.scaleFactor;
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        Vector3 worldPos = Camera.main.ScreenToWorldPoint(eventData.position);
-        worldPos.y = 0; // Grid magass·g
-
-        Vector3 snappedPos = GridManager.Instance.SnapToNearestTile(worldPos);
-
-        // MeghÌvjuk a PlayerController szerver parancs·t
-        if (Mirror.NetworkClient.localPlayer != null)
-        {
-            var pc = Mirror.NetworkClient.localPlayer.GetComponent<PlayerController>();
-            pc.CmdRequestSpawnSoldier(snappedPos, team, unitName);
-        }
-        
-        rectTransform.position = startPos; // vissza·llÌtjuk a k·rty·t
-    }
+    [Header("Prefab override (opcion√°lis)")]
+    public GameObject prefabOverride;
 }
