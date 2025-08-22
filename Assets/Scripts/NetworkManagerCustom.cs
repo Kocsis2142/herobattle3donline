@@ -39,12 +39,12 @@ public class NetworkManagerCustom : NetworkManager
         base.OnServerConnect(conn);
 
         Debug.Log("Player connected: " + conn.connectionId);
-
+GameManager.Instance.StartGame();
         // Ha 2 játékos van, indítsuk a játékot
         if (NetworkServer.connections.Count == 2)
         {
             Debug.Log("2 player joined starting game...");
-            GameManager.Instance.StartGame();
+            
         }
     }
 
