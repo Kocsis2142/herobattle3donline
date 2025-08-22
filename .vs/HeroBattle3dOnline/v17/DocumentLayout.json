@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\kocsi\\HeroBattle3dOnline\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\SoldierController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SoldierController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Mirror\\Core\\NetworkBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Mirror\\Core\\NetworkBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kocsi\\HeroBattle3dOnline\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\NetworkManagerCustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NetworkManagerCustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Teams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\SoldierController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SoldierController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\UnitCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UnitCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,37 +78,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "NetworkBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Mirror\\Core\\NetworkBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Mirror\\Core\\NetworkBehaviour.cs",
+              "ToolTip": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Mirror\\Core\\NetworkBehaviour.cs",
+              "RelativeToolTip": "Assets\\Mirror\\Core\\NetworkBehaviour.cs",
+              "ViewState": "AQIAAMIBAAAAAAAAAAAlwOEBAACcAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:06:08.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lit.shader",
+              "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-22T12:12:18.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T10:02:55.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "NetworkManagerCustom.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\NetworkManagerCustom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkManagerCustom.cs",
               "ToolTip": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\NetworkManagerCustom.cs",
               "RelativeToolTip": "Assets\\Scripts\\NetworkManagerCustom.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T11:38:51.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "StartClient.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\StartClient.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartClient.cs",
@@ -108,12 +142,11 @@
               "RelativeToolTip": "Assets\\Scripts\\StartClient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T09:45:12.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T09:45:12.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "StartServer.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\StartServer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartServer.cs",
@@ -121,12 +154,11 @@
               "RelativeToolTip": "Assets\\Scripts\\StartServer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T09:44:43.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T09:44:43.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "UnitDatabase.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\UnitDatabase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitDatabase.cs",
@@ -134,12 +166,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UnitDatabase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T09:29:16.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T09:29:16.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "NetworkServer.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Mirror\\Core\\NetworkServer.cs",
               "RelativeDocumentMoniker": "Assets\\Mirror\\Core\\NetworkServer.cs",
@@ -147,12 +178,11 @@
               "RelativeToolTip": "Assets\\Mirror\\Core\\NetworkServer.cs",
               "ViewState": "AQIAAGYGAAAAAAAAAAAlwMAGAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T13:57:15.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T13:57:15.165Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "NetworkScenePostProcess.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Mirror\\Editor\\NetworkScenePostProcess.cs",
               "RelativeDocumentMoniker": "Assets\\Mirror\\Editor\\NetworkScenePostProcess.cs",
@@ -160,12 +190,11 @@
               "RelativeToolTip": "Assets\\Mirror\\Editor\\NetworkScenePostProcess.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAlwEcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T13:47:27.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T13:47:27.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "EventSystem.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Library\\PackageCache\\com.unity.ugui@1a71b488df3e\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1a71b488df3e\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
@@ -173,12 +202,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1a71b488df3e\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "ViewState": "AQIAAOkBAAAAAAAAAAAlwCwCAACrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T13:39:23.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T13:39:23.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UnitCard.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\UnitCard.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitCard.cs",
@@ -186,25 +214,24 @@
               "RelativeToolTip": "Assets\\Scripts\\UnitCard.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T12:13:26.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T12:13:26.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "SoldierController.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\SoldierController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoldierController.cs",
               "ToolTip": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\SoldierController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SoldierController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T11:46:01.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Teams.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\Teams.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Teams.cs",
@@ -212,12 +239,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Teams.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T11:42:49.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T11:42:49.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DragDropManager.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\DragDropManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DragDropManager.cs",
@@ -225,12 +251,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DragDropManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T12:05:23.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T12:05:23.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -238,12 +263,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T11:39:48.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T11:39:48.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GridManager.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Scripts\\GridManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GridManager.cs",
@@ -251,12 +275,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GridManager.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAAALQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T11:39:18.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T11:39:18.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "NetworkInformationPreview.cs",
               "DocumentMoniker": "C:\\Users\\kocsi\\HeroBattle3dOnline\\Assets\\Mirror\\Editor\\NetworkInformationPreview.cs",
               "RelativeDocumentMoniker": "Assets\\Mirror\\Editor\\NetworkInformationPreview.cs",
