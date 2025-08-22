@@ -190,7 +190,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5621977868205618774}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 56e0b58891e44c042b14e1da31b6c6e1, type: 3}
   m_Controller: {fileID: 9100000, guid: f8805c5c1e9795d4f8f357fef66b6e1b, type: 2}
   m_CullingMode: 0
@@ -218,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56e0b58891e44c042b14e1da31b6c6e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56e0b58891e44c042b14e1da31b6c6e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -256,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orc_walk_to_Unity
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 56e0b58891e44c042b14e1da31b6c6e1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f8805c5c1e9795d4f8f357fef66b6e1b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
